@@ -1,0 +1,31 @@
+what is RESTful API ?
+=> representation state transfer (we can use it to trandsfer data)
+A RESTful API is an application program interface (API) that uses HTTP requests to GET,
+ PUT, POST and DELETE data. Representational state transfer (REST), 
+which is used by browsers, can be thought of as the language of the Internet.
+
+server ---- > cliernt (request ----> response)
+
+
+handling cors erroe
+
+cors
+ cross origin resource sharing
+
+ managing orders with Mongoose
+
+ multer allow you to upload image.
+
+ JWT (json web token)
+
+// this how you could know consome data
+
+fetch('--- you can type here the service')
+     .then(res => res.json())
+     .then(json => {
+         this.setstate({
+             isLoaded: true,
+             items: json,
+         })
+     })
+ 
